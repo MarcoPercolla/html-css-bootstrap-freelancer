@@ -162,7 +162,20 @@ nav a:hover{
     color: white;
 }
 
+.border_button:hover{
+    transition: 0.2s;
+    scale: 1.4;
+    color: var(--primary-color);
+    background-color: white;
+    border: black solid 1px;
+}
 
+.green_button:hover{
+    transition: 0.2s;
+    scale: 1.2;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
 
 /* media */
 @media (min-width: 576px){
