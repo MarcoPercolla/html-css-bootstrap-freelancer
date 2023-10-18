@@ -177,6 +177,12 @@ nav a:hover{
     background-color: var(--secondary-color);
 }
 
+footer i:hover{
+    scale: 1.1;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 /* media */
 @media (min-width: 576px){
     .w_responsive{
