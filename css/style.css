@@ -90,6 +90,29 @@ footer i{
 
 #portfolio img {
     width:100%;
+    
+    
+}
+
+.vetrina > .my_card{
+    position: relative;
+}
+
+
+.fa-plus {
+    
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: rgba(28, 189, 157, 0.563);
+    font-size: 3rem;
+    top:0.5rem;
+    left: 0.5rem;
+    text-align: center;
+    height: calc(100% - 1rem);
+    width: calc(100% - 1rem);
+    border-radius: 2rem;
+    
 }
 
 #portfolio h2 {
@@ -181,6 +204,11 @@ footer i:hover{
     scale: 1.1;
     color: var(--primary-color);
     border-color: var(--primary-color);
+}
+
+.my_card:hover > .fa-plus{
+    display: flex;
+   
 }
 
 /* media */
