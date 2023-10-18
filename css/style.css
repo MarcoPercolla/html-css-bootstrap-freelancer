@@ -57,10 +57,6 @@ h1{
     color:white;
 }
 
-.form label{
-    margin-right: 2rem;
-}
-
 .form input{
     width: 100%;
     border: none;
