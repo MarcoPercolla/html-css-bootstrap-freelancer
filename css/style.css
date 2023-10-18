@@ -76,6 +76,14 @@ footer i{
     border:solid 1px white ;
     border-radius: 50%;
 }
+
+#portfolio{
+    background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #portfolio img {
     width:100%;
 }
@@ -126,13 +134,13 @@ section{
 }
 
 .blackline {
-    height:0.5rem;
+    height:0.3rem;
     background-color: black;
     border-radius: 0.2rem;
 }
 
 .whiteline {
-    height:0.5rem;
+    height:0.3rem;
     background-color: white;
     border-radius: 0.2rem;
 }
