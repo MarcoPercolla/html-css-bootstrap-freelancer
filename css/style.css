@@ -79,11 +79,18 @@ footer h4{
 }
 
 footer i{
-    font-size: 1rem;
-    padding: 1.2rem;
-    margin: 0.2rem;
+    text-align: center;
+    width: 100%;
+    aspect-ratio: 1;
+    margin: auto;
+    
+}
+
+.circle{
+    width: 15%;
+    aspect-ratio: 1;
     border:solid 1px white ;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
 footer a{
@@ -209,7 +216,13 @@ nav a:hover{
     background-color: var(--secondary-color);
 }
 
-footer i:hover{
+.circle:hover{
+    scale: 1.1;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.circle:hover > a{
     scale: 1.1;
     color: var(--primary-color);
     border-color: var(--primary-color);
