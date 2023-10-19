@@ -86,6 +86,10 @@ footer i{
     border-radius: 50%;
 }
 
+footer a{
+    color: white;
+}
+
 #portfolio{
     background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
